@@ -17,24 +17,32 @@
     <div class="wrapper">
         <div class="overlay">
             <header>
-                <nav id="navbar-css" class="navbar navbar-expand-lg">
+                <nav id="navbar-css" class="navbar navbar-expand-lg fixed-top sticky">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="assets/images/sleek.png" alt="Sleek"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav navbar-links">
-                                <li class="nav-item">
-                                    <a class="nav-link colour" href="index.html">Om oss</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link colour" href="experience.html">Vår tjänst</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link colour active" aria-current="page" href="contact.html">Kontakt oss</a>
-                                </li>
-                            </ul>
+                            <div class="nav-link-background">
+                                <ul class="navbar-nav navbar-links">
+                                    <li class="nav-item">
+                                        <a class="nav-link colour" href="#UX">UX</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link colour" href="#design">Design</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link colour" href="#SEO">SEO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link colour" href="#apps">Apps</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link colour" href="#contact">Contact us</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -49,6 +57,7 @@
                             goods and services.</p>
                     </div>
                 </div>
+                <div id="UX"></div>
                 <div class="page-container container-fluid">
                     <div class="ux-info" data-aos="fade-right">
                         <h1 class="startpage-header whatis-header" id="header-top">What is</h1>
@@ -64,7 +73,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="page-container container-fluid">
+                <div class="page-container container-fluid" id="design">
                     <div class="left-container"><img class="design-image" src="assets/images/design.jpg" alt="design"></div>
                     <div class="right-container design-container">
                         <h1 class="startpage-header whatis-header">Design</h1>
@@ -73,7 +82,7 @@
                             any requirement during their visit.</p>
                     </div>
                 </div>
-                <div class="page-container container-fluid">
+                <div class="page-container container-fluid" id="SEO">
                     <div class="ux-info slider-box" data-aos="fade-right">
                         <h1 class="startpage-header whatis-header" id="header-top">What is</h1>
                         <h1 class="startpage-header" id="header-bottom">SEO?</h1>
@@ -90,6 +99,7 @@
                         </p>
                     </div>
                 </div>
+                <div id="apps"></div>
                 <div class="page-container container-fluid">
                     <div class="wrapper2">
                         <div class="overlay2"></div>
@@ -103,7 +113,7 @@
                 </div>
             </section>
             <section>
-                <div class="container form-container">
+                <div class="container form-container" id="contact">
                     <h1 class="contact-h1">Contact Form</h1>
                     <p class="contact-p">If you're interested in learning more information or using our services, please don't pause to contact us.</p>
                     <form target="_blank" action="https://formsubmit.co/7712631e3a41de163c67a04ed7dd89e2" method="POST">

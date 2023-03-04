@@ -6,6 +6,7 @@
 }
 
 body {
+    margin-top: 90px;
     background-color: black;
 }
 
@@ -13,8 +14,21 @@ h1 {
     font-family: 'Kaushan Script', cursive;
 }
 
+#navbar-css {
+    padding-top: 0;
+}
+
+.nav-link-background {
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 20px
+}
+
 .navbar-logo {
     height: 60px;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.1);
 }
 
 .navbar-expand-lg .navbar-collapse {
