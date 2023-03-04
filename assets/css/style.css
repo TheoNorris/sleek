@@ -10,7 +10,7 @@ h1 {
 }
 
 .navbar-logo {
-    height: 50px;
+    height: 60px;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -21,6 +21,7 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     color: white;
     letter-spacing: 2px;
+    font-size: 20px;
 }
 
 .nav-link.colour.active {
@@ -107,4 +108,30 @@ h1 {
 
 .slider-box {
     width: 100%;
+}
+
+.overlay2 {
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    z-index: 2;
+    max-width: 100vw;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.wrapper2 {
+    width: 45%;
+    background: url("../images/apps2.jpg") repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
