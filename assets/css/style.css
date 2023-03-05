@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
+    overflow-x: hidden
 }
 
 body {
@@ -100,7 +101,6 @@ h1 {
     height: auto;
     display: flex;
     flex-direction: row;
-    overflow: hidden;
 }
 
 .left-container {
@@ -362,6 +362,9 @@ footer {
     .burger {
         color: white;
         font-size: 25px;
+    }
+    .social-links {
+        margin-bottom: 0px;
     }
 }
 
