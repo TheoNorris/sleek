@@ -446,6 +446,12 @@ footer {
     .sleek-tag {
         font-size: 12px;
     }
+    .socials {
+        margin-bottom: 0px;
+    }
+    .startpage-header.whatis-header.sleek-intro-head {
+        margin-top: 45px;
+    }
 }
 
 @media (max-width: 420px) {
