@@ -63,7 +63,7 @@ h1 {
 }
 
 .wrapper {
-    height: 570vh;
+    height: auto;
     background: url("../images/computer1.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -176,7 +176,7 @@ h1 {
     background-color: #00000040;
     color: white;
     padding: 30px 40px;
-    margin: 80px auto;
+    margin: 80px auto 50px;
     border-radius: 25px;
 }
 
@@ -251,9 +251,6 @@ footer {
     .nav-link {
         font-size: 18px;
     }
-    .wrapper {
-        height: 430vh;
-    }
     .startpage-header.whatis-header {
         font-size: 40px;
     }
@@ -284,9 +281,6 @@ footer {
     .nav-link {
         font-size: 18px;
     }
-    .wrapper {
-        height: 520vh;
-    }
     footer {
         font-size: 15px;
     }
@@ -302,15 +296,9 @@ footer {
     body {
         margin-top: 70px;
     }
-    .wrapper {
-        height: 570vh;
-    }
 }
 
 @media (max-width: 1025px) {
-    .wrapper {
-        height: 540vh;
-    }
     .startpage-header.whatis-header {
         font-size: 30px;
         margin-right: 50px;
@@ -333,9 +321,6 @@ footer {
 }
 
 @media (max-width: 991px) {
-    .wrapper {
-        height: 320vh;
-    }
     .startpage-header.whatis-header {
         font-size: 25px;
         margin-right: 50px;
@@ -362,18 +347,12 @@ footer {
 }
 
 @media (max-width: 914px) {
-    .wrapper {
-        height: 260vh;
-    }
     .form-container {
         width: 90%;
     }
 }
 
 @media (max-width: 825px) {
-    .wrapper {
-        height: 280vh;
-    }
     #ipad-left-div {
         display: none;
     }
@@ -387,9 +366,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .wrapper {
-        height: 310vh;
-    }
     section {
         padding: 30px;
     }
@@ -436,9 +412,6 @@ footer {
     .ux-p.sleek-info {
         width: 90%;
     }
-    .wrapper {
-        height: 520vh;
-    }
     .slider {
         margin-left: 20px;
     }
@@ -454,9 +427,6 @@ footer {
 }
 
 @media (max-width: 420px) {
-    .wrapper {
-        height: 470vh;
-    }
     section {
         padding-bottom: 0;
     }
@@ -478,18 +448,12 @@ footer {
 }
 
 @media (max-width: 394px) {
-    .wrapper {
-        height: 520vh;
-    }
     .startpage-header.whatis-header {
         margin-top: 20px;
     }
 }
 
 @media (max-width: 375px) {
-    .wrapper {
-        height: 450vh;
-    }
     section {
         padding: 0 20px;
     }
@@ -528,16 +492,7 @@ footer {
     }
 }
 
-@media (max-width: 362px) {
-    .wrapper {
-        height: 420vh;
-    }
-}
-
 @media (max-width: 280px) {
-    .wrapper {
-        height: 435vh;
-    }
     .startpage-header.whatis-header {
         font-size: 18px;
     }
