@@ -31,6 +31,24 @@ h1 {
     transform: scale(1.1);
 }
 
+.flag-div {
+    display: flex;
+    justify-content: center;
+}
+
+.flag {
+    height: 15px;
+}
+
+.flag-link {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.flag-link:hover {
+    border: solid #ffa200 1px;
+}
+
 .burger {
     color: white;
 }
@@ -213,6 +231,7 @@ footer {
     font-size: 20px;
     color: #ffa200;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .social-links:hover {
