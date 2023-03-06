@@ -112,31 +112,31 @@ h1 {
 }
 
 .startpage-header.whatis-header {
-    font-size: 50px;
+    font-size: 40px;
     margin-right: 80px;
 }
 
 .startpage-header {
-    margin-right: 80px;
+    margin-right: 60px;
     color: white;
     font-size: 65px;
 }
 
 .sleek-info {
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     font-style: italic;
     margin-top: 30px;
     text-align: left;
 }
 
 #header-top {
-    font-size: 50px;
+    font-size: 40px;
     margin-right: 80px;
 }
 
 #header-bottom {
-    margin-right: 80px;
+    margin-right: 60px;
     font-size: 60px;
 }
 
