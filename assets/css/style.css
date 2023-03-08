@@ -12,6 +12,7 @@ body {
 
 section {
     overflow-x: hidden;
+    padding: 40px;
 }
 
 h1 {
@@ -106,13 +107,16 @@ h1 {
     flex-direction: row;
 }
 
+#page-container-top {
+    margin-top: 0;
+}
+
 .left-container {
     width: 45%;
 }
 
 .right-container {
     width: 50%;
-    margin-right: 0;
 }
 
 .startpage-header.whatis-header {
@@ -144,27 +148,20 @@ h1 {
     font-size: 60px;
 }
 
-.ux-info {
-    width: 100%;
-}
-
 .ux-p {
-    width: 85%;
-    margin: 30px auto;
+    padding: 0px 30px;
 }
 
 .design-image {
+    margin-top: 20px;
     width: 90%;
     opacity: 90%;
     border-radius: 25px;
 }
 
 .right-container.design-container {
-    margin-left: 30px
-}
-
-.right-container.design-container.app-right {
-    width: 42%;
+    margin-left: 30px;
+    margin-right: 10px;
 }
 
 .slider-box {
@@ -193,7 +190,8 @@ h1 {
     text-align: center;
     z-index: 1;
     border-radius: 25px;
-    margin-left: 40px;
+    margin-top: 15px;
+    margin-left: 25px;
     margin-right: 40px;
 }
 
@@ -202,7 +200,7 @@ h1 {
     background-color: #00000040;
     color: white;
     padding: 30px 40px;
-    margin: 80px auto 50px;
+    margin: 0 auto 20px;
     border-radius: 25px;
 }
 
@@ -345,6 +343,9 @@ footer {
 }
 
 @media (max-width: 991px) {
+    #ipad-right-div.right-container {
+        width: 90%;
+    }
     .startpage-header.whatis-header {
         font-size: 25px;
         margin-right: 50px;
@@ -374,13 +375,22 @@ footer {
 }
 
 @media (max-width: 914px) {
-    .form-container {
-        width: 90%;
+    #header-top.startpage-header {
+        margin-top: 30px;
     }
-}
-
-@media (max-width: 825px) {
+    #header-bottom {
+        margin-left: 0;
+    }
+    #header-bottom.startpage-header.whatis-header {
+        margin-left: 0;
+    }
     #ipad-left-div {
+        display: none;
+    }
+    .sleek-info {
+        width: 100%;
+    }
+    .app-picture {
         display: none;
     }
     #ipad-right-div {
@@ -390,18 +400,22 @@ footer {
     .form-container {
         width: 90%;
     }
+    .page-container {
+        display: contents;
+        margin-top: 20px;
+    }
+    .right-container.design-container {
+        margin-left: 0px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
     section {
         padding: 30px;
     }
-    .page-container {
-        display: contents;
-        margin-top: 20px;
-    }
     #ipad-right-div {
-        width: 90%;
+        width: 100%;
     }
     .startpage-header.whatis-header {
         margin-top: 50px;
@@ -409,14 +423,14 @@ footer {
     .startpage-header {
         text-align: left;
     }
-    .sleek-info {
-        width: 90%;
+    #header-top {
+        margin-left: 30px;
+    }
+    #header-bottom {
+        margin-left: 30px;
     }
     .slider {
         margin-left: 40px;
-    }
-    .app-picture {
-        display: none;
     }
     .app-right {
         width: 90%;
@@ -464,7 +478,7 @@ footer {
 
 @media (max-width: 420px) {
     .startpage-header.whatis-header.sleek-intro-head {
-        margin-top: 20px;
+        margin-top: 0px;
     }
     section {
         padding-bottom: 0;
@@ -475,14 +489,26 @@ footer {
     #header-top.startpage-header {
         margin-top: 20px;
     }
+    #header-top.startpage-header {
+        margin-left: 15px;
+    }
+    #header-bottom.startpage-header {
+        margin-left: 15px;
+    }
     .ux-p {
         margin-bottom: 16px;
     }
+    .sleek-info {
+        margin-top: 20px;
+    }
+    .ux-p.sleek-info {
+        padding: 0;
+        margin: 20px auto;
+    }
     .form-container {
         padding: 20px;
-    }
-    .right-container.design-container.app-right {
-        margin-left: 20px;
+        margin: 0 auto 30px;
+        width: 95%;
     }
     .social-links {
         margin-top: 10px;
@@ -492,15 +518,12 @@ footer {
     }
 }
 
-@media (max-width: 394px) {
-    .startpage-header.whatis-header {
-        margin-top: 20px;
-    }
-}
-
 @media (max-width: 375px) {
     section {
         padding: 0 20px;
+    }
+    .startpage-header.whatis-header.sleek-intro-head {
+        margin-top: 20px;
     }
     .startpage-header.whatis-header {
         font-size: 20px;
@@ -523,10 +546,8 @@ footer {
         margin-top: 20px;
     }
     .form-container {
-        width: 100%;
         padding: 18px;
         font-size: 14px;
-        margin-top: 30px
     }
     .contact-p {
         margin-top: 20px;
