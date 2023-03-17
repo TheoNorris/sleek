@@ -60,6 +60,8 @@ An open source toolkit for developing with HTML, CSS, and JS.
 
 A toolkit for icons.
 
+![Page image](/assets/readme-folder/sleek5.png)
+
 ## Testing
 
 Having written my code for each .html page I have validated them on [The W3C Markup validation service](https://validator.w3.org/).
